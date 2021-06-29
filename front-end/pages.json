@@ -1,0 +1,289 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "题士",
+		        "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+		    }
+		    
+		}
+		       
+		,
+		
+		{
+		    "path" : "pages/comment/comment",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "评论",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		
+		
+		{
+		    "path" : "pages/timuList/timuList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "题目列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#7468BE",
+				"backgroundColor": "#7468BE"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+             
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#7468BE",
+                "backgroundColor": "#7468BE",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/otherLogin/otherLogin",
+            "style" :                                                                                    
+            {
+               
+                "enablePullDownRefresh": false,
+        		"app-plus":{
+        			"titleNView":false
+        		}
+            }
+            
+        }
+        ,{
+            "path" : "pages/dati/dati",
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "white",
+                "navigationBarTitleText": "答题",
+                "navigationBarBackgroundColor": "#7468BE",
+                "backgroundColor": "#7468BE",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/dati/dati2",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTextStyle": "white",
+		        "navigationBarTitleText": "模拟考试",
+		        "navigationBarBackgroundColor": "#7468BE",
+		        "backgroundColor": "#7468BE",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/dati/dati4",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTextStyle": "white",
+		        "navigationBarTitleText": "模拟考试",
+		        "navigationBarBackgroundColor": "#7468BE",
+		        "backgroundColor": "#7468BE",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/dati/dati3",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTextStyle": "white",
+		        "navigationBarTitleText": "易错刷题",
+		        "navigationBarBackgroundColor": "#7468BE",
+		        "backgroundColor": "#7468BE",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/dati/finish",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTextStyle": "white",
+		        "navigationBarTitleText": "完成考试",
+		        "navigationBarBackgroundColor": "#7468BE",
+		        "backgroundColor": "#7468BE",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/shoucang/shoucang",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rili/rili",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "考期日历",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/kapian/kapian",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识卡片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tiku/tiku",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "题库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ziyuan/ziyuan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资源中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/ziyuan/ziyuan2",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "搜索结果",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/wenda/wenda",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问题中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/commentReply/commentReply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/settings/settings",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}
+        ,{
+            "path" : "pages/aboutUs/aboutUs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wenda/wendadetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/notice/notice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息通知",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#2C405A",
+		"selectedColor":"#7468BE",
+		"list":[
+			{
+				"iconPath":"static/tabbar/index.png",
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"selectedIconPath":"static/tabbar/index-active.png"
+			},
+			{
+				"iconPath":"static/tabbar/user.png",
+				"pagePath":"pages/user/user",
+				"text":"我的",
+				"selectedIconPath":"static/tabbar/user-active.png"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
